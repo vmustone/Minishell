@@ -6,7 +6,7 @@
 #    By: vmustone <vmustone@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/10 20:18:39 by lbroms            #+#    #+#              #
-#    Updated: 2023/08/22 14:57:39 by vmustone         ###   ########.fr        #
+#    Updated: 2023/08/22 15:30:55 by vmustone         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ SRC = minishell.c allocations.c lexer.c minishell_main_utils.c \
 
 OBJ = $(SRC:.c=.o)
 
-FLAGS = -Wall -Wunused-function -Werror -Wextra -fsanitize=address
+FLAGS = -Wall -Wunused-function -Werror -Wextra
 
 O_FLAGS = -lreadline -L${HOME}/.brew/opt/readline/lib
 
